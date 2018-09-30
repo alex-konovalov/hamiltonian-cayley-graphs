@@ -1,0 +1,1899 @@
+ ┌───────┐   GAP 4.8.7, 24-Mar-2017, build of 2017-07-19 14:00:28 (CEST)
+ │  GAP  │   https://www.gap-system.org
+ └───────┘   Architecture: x86_64-apple-darwin16.6.0-gcc-default64
+ Libs used:  gmp
+ Loading the library and packages ...
+ Components: trans 1.0, prim 2.1, small* 1.0, id* 1.0
+ Packages:   AClib 1.2, Alnuth 3.0.0, AtlasRep 1.5.1, AutPGrp 1.8, Browse 1.8.6, CRISP 1.4.4, Cryst 4.1.12, CrystCat 1.1.6, CTblLib 1.2.2, 
+             FactInt 1.5.4, FGA 1.3.1, GAPDoc 1.5.1, IO 4.4.6, IRREDSOL 1.3.1, LAGUNA 3.7.0, Polenta 1.3.7, Polycyclic 2.11, RadiRoot 2.7, 
+             ResClasses 4.6.0, Sophus 1.23, SpinSym 1.5, TomLib 1.2.6, Utils 0.46
+ Try '??help' for help. See also '?copyright', '?cite' and '?authors'
+gap> Read("4-3-RedundantSBar.gap");
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading  GRAPE 4.7 (GRaph Algorithms using PErmutation groups)
+by Leonard H. Soicher (http://www.maths.qmul.ac.uk/~leonard/).
+Homepage: http://www.maths.qmul.ac.uk/~leonard/grape/
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+k = 1. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 2. There are 1 groups of order 2.
+
+    GBar = SmallGroup(2, 1) = C2 has 1 irredundant generating sets
+        1. S0Bar = [ f1 ]: all 0 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 3. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 4. There are 2 groups of order 4.
+
+    GBar = SmallGroup(4, 1) = C4 has 1 irredundant generating sets
+        1. S0Bar = [ f1 ]: all 1 choices of a are ok          
+
+    GBar = SmallGroup(4, 2) = C2 x C2 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 1 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 5. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 6. There are 2 groups of order 6.
+
+    GBar = SmallGroup(6, 1) = S3 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 1 choices of a are ok          
+
+    GBar = SmallGroup(6, 2) = C6 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 1 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 7. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 8. There are 5 groups of order 8.
+
+    GBar = SmallGroup(8, 1) = C8 has 1 irredundant generating sets
+        1. S0Bar = [ f1 ]: trying 1 of 2 (a = f2)
+            GCD of voltages is 6 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 8
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C8
+                            1. S = [ f1, f2*f4 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: all 2 choices of a are ok          
+
+    GBar = SmallGroup(8, 2) = C4 x C2 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 2 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 3 choices of a are ok          
+
+    GBar = SmallGroup(8, 3) = D8 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: trying 2 of 2 (a = f1*f2)
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 8
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D8
+                            1. S = [ f1, f2, f1*f2*f4 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: all 2 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 3 choices of a are ok          
+
+    GBar = SmallGroup(8, 4) = Q8 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 2 choices of a are ok          
+
+    GBar = SmallGroup(8, 5) = C2 x C2 x C2 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 3 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 9. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 10. There are 2 groups of order 10.
+
+    GBar = SmallGroup(10, 1) = D10 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 2 choices of a are ok          
+
+    GBar = SmallGroup(10, 2) = C10 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 2 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 11. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 12. There are 5 groups of order 12.
+
+    GBar = SmallGroup(12, 1) = C3 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 3 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(12, 2) = C12 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2 ]: trying 3 of 3 (a = f2*f3)
+            GCD of voltages is 10 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 12
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C3 x (C5 : C4)
+                            1. S = [ f1*f2, f2*f3*f4 ]: LKH found a hamiltonian cycle.
+        3. S0Bar = [ f1*f2 ]: all 3 choices of a are ok          
+
+    GBar = SmallGroup(12, 3) = A4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: not bipartite
+
+    GBar = SmallGroup(12, 4) = D12 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 4 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: all 4 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2*f3 ]: trying 3 of 3 (a = f2*f3)
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 12
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C10 x S3
+                            1. S = [ f1, f1*f2*f3, f2*f3*f4 ]: LKH found a hamiltonian cycle.
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 3 choices of a are ok          
+
+    GBar = SmallGroup(12, 5) = C6 x C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: all 3 choices of a are ok          
+        3. S0Bar = [ f1*f3, f2*f3 ]: all 3 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 13. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 14. There are 2 groups of order 14.
+
+    GBar = SmallGroup(14, 1) = D14 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 3 choices of a are ok          
+
+    GBar = SmallGroup(14, 2) = C14 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 3 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 15. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 16. There are 14 groups of order 16.
+
+    GBar = SmallGroup(16, 1) = C16 has 1 irredundant generating sets
+        1. S0Bar = [ f1 ]: trying 1 of 4 (a = f2)
+            GCD of voltages is 14 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 : C16
+                            1. S = [ f1, f2*f5 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: trying 2 of 4 (a = f3)
+            GCD of voltages is 6 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C16
+                            1. S = [ f1, f3*f5 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 2) = C4 x C4 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 5 choices of a are ok          
+
+    GBar = SmallGroup(16, 3) = (C4 x C2) : C2 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 5 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(16, 4) = C4 : C4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 5 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 5 choices of a are ok          
+
+    GBar = SmallGroup(16, 5) = C8 x C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 6) = C8 : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 7) = D16 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: trying 1 of 4 (a = f3)
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 x D16
+                            1. S = [ f1, f2, f3*f5 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 3 of 4 (a = f1*f2)
+            GCD of voltages is 14 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 x D16
+                            1. S = [ f1, f2, f1*f2*f5 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 4 of 4 (a = f1*f2*f4)
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D16
+                            1. S = [ f1, f2, f1*f2*f4*f5 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(16, 8) = QD16 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f2, f1*f2 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 9) = Q16 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 10) = C4 x C2 x C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 5 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2, f1*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(16, 11) = C2 x D8 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 6 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f2*f3 ]: all 6 choices of a are ok          
+        4. S0Bar = [ f1, f3, f1*f2 ]: all 6 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2, f1*f3 ]: all 7 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(16, 12) = C2 x Q8 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f2*f3 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(16, 13) = (C4 x C2) : C2 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 4 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f2*f3 ]: all 4 choices of a are ok          
+        4. S0Bar = [ f1, f3, f1*f2 ]: all 6 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2, f1*f3 ]: all 5 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f2*f3 ]: all 6 choices of a are ok          
+        7. S0Bar = [ f3, f1*f2, f1*f3 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(16, 14) = C2 x C2 x C2 x C2 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 7 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 17. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 18. There are 5 groups of order 18.
+
+    GBar = SmallGroup(18, 1) = D18 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(18, 2) = C18 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(18, 3) = C3 x S3 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2*f3 ]: all 4 choices of a are ok          
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f2, f1*f2*f3 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(18, 4) = (C3 x C3) : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f1*f2, f1*f3 ]: all 4 choices of a are ok          
+
+    GBar = SmallGroup(18, 5) = C6 x C3 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2, f1*f3 ]: all 4 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 19. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 20. There are 5 groups of order 20.
+
+    GBar = SmallGroup(20, 1) = C5 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(20, 2) = C20 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2 ]: all 5 choices of a are ok          
+
+    GBar = SmallGroup(20, 3) = C5 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 7 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(20, 4) = D20 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 7 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: all 7 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 5 choices of a are ok          
+
+    GBar = SmallGroup(20, 5) = C10 x C2 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: all 5 choices of a are ok          
+        3. S0Bar = [ f1*f3, f2*f3 ]: all 5 choices of a are ok          
+        4. S0Bar = [ f1*f3, f2*f3^3 ]: all 5 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 21. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 22. There are 2 groups of order 22.
+
+    GBar = SmallGroup(22, 1) = D22 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 5 choices of a are ok          
+
+    GBar = SmallGroup(22, 2) = C22 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 5 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 23. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 24. There are 15 groups of order 24.
+
+    GBar = SmallGroup(24, 1) = C3 : C8 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f4 ]: not bipartite
+        2. S0Bar = [ f1, f1*f4 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2*f4 ]: all 6 choices of a are ok          
+        4. S0Bar = [ f1, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1, f3*f4 ]: not bipartite
+
+    GBar = SmallGroup(24, 2) = C24 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f4 ]: not bipartite
+        4. S0Bar = [ f1*f2 ]: trying 6 of 6 (a = f2^2*f3)
+            GCD of voltages is 22 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 11 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 24
+                p = 11: we call LKH
+                        There are 1 lifts of SBar to G = C3 x (C11 : C8)
+                            1. S = [ f1*f2, f2^2*f3*f5 ]: LKH found a hamiltonian cycle.
+        4. S0Bar = [ f1*f2 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(24, 3) = SL(2,3) has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: not bipartite
+        3. S0Bar = [ f1, f1^2*f2 ]: not bipartite
+        4. S0Bar = [ f2, f1*f4 ]: not bipartite
+        5. S0Bar = [ f1*f4, f1^2*f2 ]: not bipartite
+
+    GBar = SmallGroup(24, 4) = C3 : Q8 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        6. S0Bar = [ f1, f2*f4 ]: all 6 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2*f4 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(24, 5) = C4 x S3 has 12 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 6 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 6 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 6 choices of a are ok          
+        9. S0Bar = [ f2, f4, f1*f2 ]: not bipartite
+        10. S0Bar = [ f2, f1*f2, f3*f4 ]: not bipartite
+        11. S0Bar = [ f2, f1*f2, f1*f2*f4 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f1*f2, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(24, 6) = D24 has 8 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: trying 4 of 6 (a = f2*f4)
+            GCD of voltages is 22 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 11 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 24
+                p = 11: we call LKH
+                        There are 1 lifts of SBar to G = C11 x D24
+                            1. S = [ f1, f1*f2*f4, f2*f4*f5 ]: LKH found a hamiltonian cycle.
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(24, 7) = C2 x (C3 : C4) has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        6. S0Bar = [ f1, f2*f4 ]: all 6 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2*f4 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 8) = (C6 x C2) : C2 has 12 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 6 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 6 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 6 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 7 choices of a are ok          
+        9. S0Bar = [ f2, f4, f1*f2 ]: not bipartite
+        10. S0Bar = [ f2, f1*f2, f3*f4 ]: not bipartite
+        11. S0Bar = [ f2, f1*f2, f1*f2*f4 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f1*f2, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(24, 9) = C12 x C2 has 9 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        5. S0Bar = [ f1, f2*f3 ]: all 6 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+        7. S0Bar = [ f2, f1*f3 ]: all 6 choices of a are ok          
+        8. S0Bar = [ f1*f3, f2*f3 ]: all 6 choices of a are ok          
+        9. S0Bar = [ f1*f3, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 10) = C3 x D8 has 9 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        5. S0Bar = [ f1, f2*f3 ]: all 6 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+        7. S0Bar = [ f1*f2, f1*f3 ]: all 7 choices of a are ok          
+        8. S0Bar = [ f1*f3, f2*f3 ]: all 6 choices of a are ok          
+        9. S0Bar = [ f1*f3, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 11) = C3 x Q8 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: all 6 choices of a are ok          
+        4. S0Bar = [ f1*f3, f2*f3 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(24, 12) = S4 has 11 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f2*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f3, f1*f2^2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f1*f2*f4 ]: all 7 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2, f1*f2^2*f3 ]: all 7 choices of a are ok          
+        8. S0Bar = [ f1, f2*f3 ]: not bipartite
+        9. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+        10. S0Bar = [ f2, f1*f3 ]: not bipartite
+        11. S0Bar = [ f1*f3, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 13) = C2 x A4 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f2*f3 ]: not bipartite
+        3. S0Bar = [ f2, f1*f3 ]: not bipartite
+        4. S0Bar = [ f2, f1*f2*f3 ]: not bipartite
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f1*f3 ]: all 7 choices of a are ok          
+        7. S0Bar = [ f1*f2, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 14) = C2 x C2 x S3 has 11 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f4, f1*f3 ]: not bipartite
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f4, f1*f2, f1*f3 ]: not bipartite
+        7. S0Bar = [ f1, f1*f2, f3*f4 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 7 choices of a are ok          
+        9. S0Bar = [ f1, f2*f4, f3*f4 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f1, f2*f4, f1*f3*f4 ]: all 9 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2*f4, f1*f3*f4^2 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(24, 15) = C6 x C2 x C2 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: all 7 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4, f3*f4 ]: all 7 choices of a are ok          
+        4. S0Bar = [ f1*f4, f2*f4, f3*f4 ]: all 7 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 25. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 26. There are 2 groups of order 26.
+
+    GBar = SmallGroup(26, 1) = D26 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 6 choices of a are ok          
+
+    GBar = SmallGroup(26, 2) = C26 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 6 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 27. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 28. There are 4 groups of order 28.
+
+    GBar = SmallGroup(28, 1) = C7 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 7 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(28, 2) = C28 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2 ]: trying 6 of 7 (a = f2^2*f3)
+            GCD of voltages is 26 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 13 ]
+                p = 2 is not larger than the largest prime divisor 7 of k = 28
+                p = 13: we call LKH
+                        There are 1 lifts of SBar to G = C7 x (C13 : C4)
+                            1. S = [ f1*f2, f2^2*f3*f4 ]: LKH found a hamiltonian cycle.
+        3. S0Bar = [ f1*f2 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(28, 3) = D28 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2*f3 ]: trying 3 of 7 (a = f2*f3)
+            GCD of voltages is 26 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 13 ]
+                p = 2 is not larger than the largest prime divisor 7 of k = 28
+                p = 13: we call LKH
+                        There are 1 lifts of SBar to G = C26 x D14
+                            1. S = [ f1, f1*f2*f3, f2*f3*f4 ]: LKH found a hamiltonian cycle.
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(28, 4) = C14 x C2 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: all 7 choices of a are ok          
+        3. S0Bar = [ f1*f3, f2*f3 ]: all 7 choices of a are ok          
+        4. S0Bar = [ f1*f3, f2*f3^3 ]: all 7 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 29. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 30. There are 4 groups of order 30.
+
+    GBar = SmallGroup(30, 1) = C5 x S3 has 9 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f2, f2^2*f3^2 ]: not bipartite
+        8. S0Bar = [ f1*f2, f1*f2*f3 ]: all 7 choices of a are ok          
+        9. S0Bar = [ f1*f2, f1*f2^3*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(30, 2) = C3 x D10 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f2, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(30, 3) = D30 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2*f3 ]: trying 3 of 7 (a = f2*f3)
+            GCD of voltages is 28 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 30
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 x D30
+                            1. S = [ f1, f1*f2*f3, f2*f3*f4 ]: LKH found a hamiltonian cycle.
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 7 choices of a are ok          
+
+    GBar = SmallGroup(30, 4) = C30 has 9 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f2, f1*f3 ]: not bipartite
+        4. S0Bar = [ f3, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1*f2, f1*f3 ]: all 7 choices of a are ok          
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f3, f2*f3 ]: not bipartite
+        8. S0Bar = [ f1*f3, f2^2*f3^2 ]: not bipartite
+        9. S0Bar = [ f1*f2*f3 ]: trying 7 of 7 (a = f2^2*f3^2)
+            GCD of voltages is 28 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 30
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C15 x D14
+                            1. S = [ f1*f2*f3, f2^2*f3^2*f4 ]: LKH found a hamiltonian cycle.
+        9. S0Bar = [ f1*f2*f3 ]: all 7 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 31. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 32. There are 51 groups of order 32.
+
+    GBar = SmallGroup(32, 1) = C32 has 1 irredundant generating sets
+        1. S0Bar = [ f1 ]: trying 1 of 8 (a = f2)
+            GCD of voltages is 30 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C32
+                            1. S = [ f1, f2*f6 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 : C32
+                            1. S = [ f1, f2*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: trying 2 of 8 (a = f3)
+            GCD of voltages is 18 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C32
+                            1. S = [ f1, f3*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: trying 3 of 8 (a = f4)
+            GCD of voltages is 10 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 : C32
+                            1. S = [ f1, f4*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: trying 6 of 8 (a = f2*f4)
+            GCD of voltages is 10 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 : C32
+                            1. S = [ f1, f2*f4*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: trying 7 of 8 (a = f2*f5)
+            GCD of voltages is 6 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C32
+                            1. S = [ f1, f2*f5*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(32, 2) = (C4 x C2) : C4 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 3) = C8 x C4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 4) = C8 : C4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 5) = (C8 x C2) : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 6) = ((C4 x C2) : C2) : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 7) = (C8 : C2) : C2 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 13 choices of a are ok          
+
+    GBar = SmallGroup(32, 8) = C2 . ((C4 x C2) : C2) = (C2 x C2) . (C4 x C2) has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 9) = (C8 x C2) : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f2, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 10) = Q8 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f2, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 11) = (C4 x C4) : C2 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f2, f1*f2 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1*f2, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 12) = C4 : C8 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 13) = C8 : C4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 14) = C8 : C4 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 15) = C4 . D8 = C4 . (C4 x C2) has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 16) = C16 x C2 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2*f3 ]: all 8 choices of a are ok          
+        5. S0Bar = [ f1, f2*f4 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(32, 17) = C16 : C2 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2*f3*f5 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2*f3 ]: all 8 choices of a are ok          
+        5. S0Bar = [ f1, f2*f4 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(32, 18) = D32 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: trying 2 of 8 (a = f4)
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 x D32
+                            1. S = [ f1, f2, f4*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 4 of 8 (a = f1*f2)
+            GCD of voltages is 30 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D32
+                            1. S = [ f1, f2, f1*f2*f6 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 x D32
+                            1. S = [ f1, f2, f1*f2*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 5 of 8 (a = f3*f5)
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 x D32
+                            1. S = [ f1, f2, f3*f5*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 6 of 8 (a = f1*f2*f4)
+            GCD of voltages is 12 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D32
+                            1. S = [ f1, f2, f1*f2*f4*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 7 of 8 (a = f1*f2*f5)
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D32
+                            1. S = [ f1, f2, f1*f2*f5*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: trying 8 of 8 (a = f1*f2*f3*f4)
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D32
+                            1. S = [ f1, f2, f1*f2*f3*f4*f6 ]: LKH found a hamiltonian cycle.
+        1. S0Bar = [ f1, f2 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 12 choices of a are ok          
+
+    GBar = SmallGroup(32, 19) = QD32 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 12 choices of a are ok          
+        3. S0Bar = [ f2, f1*f2 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(32, 20) = Q32 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f1*f2 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(32, 21) = C4 x C4 x C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 22) = C2 x ((C4 x C2) : C2) has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f1*f3 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(32, 23) = C2 x (C4 : C4) has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 24) = (C4 x C4) : C2 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f3, f2*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f1, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 25) = C4 x D8 has 16 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 13 choices of a are ok          
+        6. S0Bar = [ f1, f3, f2*f3 ]: all 13 choices of a are ok          
+        7. S0Bar = [ f1, f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f2*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        12. S0Bar = [ f2, f3, f1*f2 ]: all 9 choices of a are ok          
+        13. S0Bar = [ f2, f3, f1*f3 ]: all 9 choices of a are ok          
+        14. S0Bar = [ f2, f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        15. S0Bar = [ f2, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        16. S0Bar = [ f2, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 26) = C4 x Q8 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f2, f3, f1*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 27) = (C2 x C2 x C2 x C2) : C2 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2, f1*f3 ]: all 15 choices of a are ok          
+        4. S0Bar = [ f2, f3, f1*f2 ]: all 13 choices of a are ok          
+        5. S0Bar = [ f2, f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f2, f1*f2, f1*f3 ]: all 13 choices of a are ok          
+        7. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(32, 28) = (C4 x C2 x C2) : C2 has 16 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 13 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f2*f3 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f1, f1*f3, f2*f3 ]: all 13 choices of a are ok          
+        11. S0Bar = [ f1, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        12. S0Bar = [ f2, f3, f1*f3 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f2, f1*f3, f2*f3 ]: all 13 choices of a are ok          
+        14. S0Bar = [ f3, f1*f3, f2*f3 ]: all 13 choices of a are ok          
+        15. S0Bar = [ f3, f1*f3, f1*f2*f3 ]: all 13 choices of a are ok          
+        16. S0Bar = [ f1*f3, f2*f3, f1*f2*f3 ]: all 13 choices of a are ok          
+
+    GBar = SmallGroup(32, 29) = (C2 x Q8) : C2 has 16 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f2*f3 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f1, f1*f3, f2*f3 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        12. S0Bar = [ f2, f3, f1*f3 ]: all 9 choices of a are ok          
+        13. S0Bar = [ f2, f1*f3, f2*f3 ]: all 11 choices of a are ok          
+        14. S0Bar = [ f3, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        15. S0Bar = [ f3, f1*f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        16. S0Bar = [ f1*f3, f2*f3, f1*f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 30) = (C4 x C2 x C2) : C2 has 16 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f3, f2*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f1, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        8. S0Bar = [ f2, f3, f1*f2 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f2, f3, f1*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f2, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        11. S0Bar = [ f2, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        12. S0Bar = [ f3, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f3, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        14. S0Bar = [ f3, f1*f3, f2*f3 ]: all 13 choices of a are ok          
+        15. S0Bar = [ f3, f1*f3, f1*f2*f3 ]: all 13 choices of a are ok          
+        16. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 31) = (C4 x C4) : C2 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f2, f3, f1*f2 ]: all 13 choices of a are ok          
+        9. S0Bar = [ f2, f1*f2, f1*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f2, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 32) = (C2 x C2) . (C2 x C2 x C2) has 8 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 33) = (C4 x C4) : C2 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f2, f3, f1*f2 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f2, f3, f1*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f2, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f2, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f2, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 34) = (C4 x C4) : C2 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 13 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 35) = C4 : Q8 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f3, f2*f3 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 36) = C8 x C2 x C2 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2, f3*f4 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f2*f4, f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 37) = C2 x (C8 : C2) has 14 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f2, f2*f3*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f3, f1*f2 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f3, f2*f4 ]: all 9 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f3*f4 ]: all 9 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f2*f3*f4 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f1, f1*f3, f2*f4 ]: all 9 choices of a are ok          
+        13. S0Bar = [ f1, f2*f4, f3*f4 ]: all 9 choices of a are ok          
+        14. S0Bar = [ f1, f2*f4, f2*f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 38) = (C8 x C2) : C2 has 16 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f2*f3, f2*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f2, f3, f1*f2 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f2, f3, f1*f2*f3 ]: all 9 choices of a are ok          
+        9. S0Bar = [ f2, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f2, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        11. S0Bar = [ f2, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f2, f1*f3, f3*f4 ]: all 9 choices of a are ok          
+        13. S0Bar = [ f1*f2, f1*f3, f2*f4 ]: all 9 choices of a are ok          
+        14. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        15. S0Bar = [ f1*f2, f2*f3, f2*f4 ]: all 9 choices of a are ok          
+        16. S0Bar = [ f1*f2, f2*f3, f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 39) = C2 x D16 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 12 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: all 12 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 12 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f1*f2 ]: all 12 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2, f1*f3 ]: all 13 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f3*f4 ]: all 12 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 13 choices of a are ok          
+
+    GBar = SmallGroup(32, 40) = C2 x QD16 has 17 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 10 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f2*f3 ]: all 10 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f2, f2*f3*f4 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f3, f1*f2 ]: all 10 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f3*f4 ]: all 10 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 13 choices of a are ok          
+        12. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 13 choices of a are ok          
+        13. S0Bar = [ f2, f3, f1*f2 ]: all 10 choices of a are ok          
+        14. S0Bar = [ f2, f1*f2, f2*f3 ]: all 9 choices of a are ok          
+        15. S0Bar = [ f2, f1*f2, f3*f4 ]: all 10 choices of a are ok          
+        16. S0Bar = [ f2, f1*f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        17. S0Bar = [ f2, f1*f2, f2*f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 41) = C2 x Q16 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: all 8 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 8 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f1*f2 ]: all 8 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f3*f4 ]: all 8 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 42) = (C8 x C2) : C2 has 27 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: all 8 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f2*f3 ]: all 8 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1, f3, f1*f2 ]: all 10 choices of a are ok          
+        7. S0Bar = [ f1, f3, f2*f3 ]: all 10 choices of a are ok          
+        8. S0Bar = [ f1, f3, f1*f2*f3 ]: all 8 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f2*f3 ]: all 10 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f3*f4 ]: all 10 choices of a are ok          
+        12. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 11 choices of a are ok          
+        14. S0Bar = [ f1, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        15. S0Bar = [ f1, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        16. S0Bar = [ f1, f2*f3, f3*f4 ]: all 10 choices of a are ok          
+        17. S0Bar = [ f1, f2*f3, f1*f3*f4 ]: all 9 choices of a are ok          
+        18. S0Bar = [ f1, f3*f4, f1*f2*f3 ]: all 8 choices of a are ok          
+        19. S0Bar = [ f1, f1*f2*f3, f1*f3*f4 ]: all 11 choices of a are ok          
+        20. S0Bar = [ f3, f1*f2, f1*f3 ]: all 10 choices of a are ok          
+        21. S0Bar = [ f3, f1*f3, f2*f3 ]: all 12 choices of a are ok          
+        22. S0Bar = [ f3, f1*f3, f1*f2*f3 ]: all 12 choices of a are ok          
+        23. S0Bar = [ f1*f2, f1*f3, f3*f4 ]: all 10 choices of a are ok          
+        24. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        25. S0Bar = [ f1*f3, f2*f3, f3*f4 ]: all 12 choices of a are ok          
+        26. S0Bar = [ f1*f3, f2*f3, f1*f2*f3 ]: all 12 choices of a are ok          
+        27. S0Bar = [ f1*f3, f3*f4, f1*f2*f3 ]: all 12 choices of a are ok          
+
+    GBar = SmallGroup(32, 43) = (C2 x D8) : C2 has 27 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 10 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f2*f3 ]: all 10 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f2, f2*f3*f4 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f3, f1*f2 ]: all 10 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f3*f4 ]: all 10 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 13 choices of a are ok          
+        12. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 13 choices of a are ok          
+        13. S0Bar = [ f2, f3, f1*f2 ]: all 12 choices of a are ok          
+        14. S0Bar = [ f2, f3, f1*f3 ]: all 12 choices of a are ok          
+        15. S0Bar = [ f2, f3, f1*f2*f3 ]: all 10 choices of a are ok          
+        16. S0Bar = [ f2, f1*f2, f1*f3 ]: all 12 choices of a are ok          
+        17. S0Bar = [ f2, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        18. S0Bar = [ f2, f1*f2, f3*f4 ]: all 12 choices of a are ok          
+        19. S0Bar = [ f2, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        20. S0Bar = [ f2, f1*f2, f2*f3*f4 ]: all 11 choices of a are ok          
+        21. S0Bar = [ f2, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        22. S0Bar = [ f2, f1*f3, f3*f4 ]: all 12 choices of a are ok          
+        23. S0Bar = [ f2, f1*f3, f2*f3*f4 ]: all 9 choices of a are ok          
+        24. S0Bar = [ f2, f3*f4, f1*f2*f3 ]: all 10 choices of a are ok          
+        25. S0Bar = [ f3, f1*f2, f1*f3 ]: all 12 choices of a are ok          
+        26. S0Bar = [ f1*f2, f1*f3, f3*f4 ]: all 12 choices of a are ok          
+        27. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 13 choices of a are ok          
+
+    GBar = SmallGroup(32, 44) = (C2 x Q8) : C2 has 27 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: all 8 choices of a are ok          
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 8 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f2*f3 ]: all 8 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f2, f2*f3*f4 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f3, f1*f2 ]: all 8 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        10. S0Bar = [ f1, f1*f2, f3*f4 ]: all 8 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 9 choices of a are ok          
+        13. S0Bar = [ f2, f3, f1*f2 ]: all 10 choices of a are ok          
+        14. S0Bar = [ f2, f3, f1*f3 ]: all 10 choices of a are ok          
+        15. S0Bar = [ f2, f3, f1*f2*f3 ]: all 8 choices of a are ok          
+        16. S0Bar = [ f2, f1*f2, f1*f3 ]: all 10 choices of a are ok          
+        17. S0Bar = [ f2, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        18. S0Bar = [ f2, f1*f2, f3*f4 ]: all 10 choices of a are ok          
+        19. S0Bar = [ f2, f1*f2, f1*f2*f3 ]: all 11 choices of a are ok          
+        20. S0Bar = [ f2, f1*f2, f2*f3*f4 ]: all 11 choices of a are ok          
+        21. S0Bar = [ f2, f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        22. S0Bar = [ f2, f1*f3, f3*f4 ]: all 10 choices of a are ok          
+        23. S0Bar = [ f2, f1*f3, f2*f3*f4 ]: all 9 choices of a are ok          
+        24. S0Bar = [ f2, f3*f4, f1*f2*f3 ]: all 8 choices of a are ok          
+        25. S0Bar = [ f3, f1*f2, f1*f3 ]: all 10 choices of a are ok          
+        26. S0Bar = [ f1*f2, f1*f3, f3*f4 ]: all 10 choices of a are ok          
+        27. S0Bar = [ f1*f2, f1*f3, f1*f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 45) = C4 x C2 x C2 x C2 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f1*f2, f1*f3, f1*f4 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(32, 46) = C2 x C2 x D8 has 13 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 13 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3, f1*f2*f4 ]: all 13 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3, f2*f4 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3, f1*f2*f4 ]: all 13 choices of a are ok          
+        7. S0Bar = [ f1, f2, f1*f2*f3, f1*f2*f4 ]: all 13 choices of a are ok          
+        8. S0Bar = [ f1, f3, f4, f1*f2 ]: all 13 choices of a are ok          
+        9. S0Bar = [ f1, f3, f1*f2, f1*f4 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f3, f1*f2, f1*f2*f4 ]: all 13 choices of a are ok          
+        11. S0Bar = [ f1, f1*f2, f1*f3, f1*f4 ]: all 15 choices of a are ok          
+        12. S0Bar = [ f1, f1*f2, f1*f3, f1*f2*f4 ]: all 15 choices of a are ok          
+        13. S0Bar = [ f1, f1*f2, f1*f2*f3, f1*f2*f4 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(32, 47) = C2 x C2 x Q8 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3, f1*f2*f4 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3, f2*f4 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3, f1*f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 48) = C2 x ((C4 x C2) : C2) has 33 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3, f3*f4 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3, f1*f2*f4 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f2, f3, f1*f3*f4 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f2, f3, f1*f2*f3*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1, f2, f4, f1*f3 ]: all 11 choices of a are ok          
+        8. S0Bar = [ f1, f2, f4, f1*f2*f3 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1, f2, f1*f3, f2*f4 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1, f2, f1*f3, f1*f2*f4 ]: all 11 choices of a are ok          
+        12. S0Bar = [ f1, f2, f1*f3, f1*f3*f4 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f1, f2, f1*f3, f2*f3*f4 ]: all 11 choices of a are ok          
+        14. S0Bar = [ f1, f2, f1*f3, f1*f2*f3*f4 ]: all 11 choices of a are ok          
+        15. S0Bar = [ f1, f2, f1*f4, f1*f2*f3 ]: all 9 choices of a are ok          
+        16. S0Bar = [ f1, f3, f4, f1*f2 ]: all 11 choices of a are ok          
+        17. S0Bar = [ f1, f3, f1*f2, f1*f4 ]: all 13 choices of a are ok          
+        18. S0Bar = [ f1, f3, f1*f2, f3*f4 ]: all 13 choices of a are ok          
+        19. S0Bar = [ f1, f3, f1*f2, f1*f2*f4 ]: all 13 choices of a are ok          
+        20. S0Bar = [ f1, f3, f1*f2, f1*f3*f4 ]: all 11 choices of a are ok          
+        21. S0Bar = [ f1, f3, f1*f2, f2*f3*f4 ]: all 13 choices of a are ok          
+        22. S0Bar = [ f1, f4, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        23. S0Bar = [ f1, f4, f1*f2, f2*f3 ]: all 11 choices of a are ok          
+        24. S0Bar = [ f1, f1*f2, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        25. S0Bar = [ f1, f1*f2, f1*f3, f1*f2*f4 ]: all 11 choices of a are ok          
+        26. S0Bar = [ f1, f1*f2, f1*f3, f1*f3*f4 ]: all 11 choices of a are ok          
+        27. S0Bar = [ f1, f1*f2, f1*f3, f2*f3*f4 ]: all 11 choices of a are ok          
+        28. S0Bar = [ f1, f1*f2, f1*f4, f2*f3 ]: all 13 choices of a are ok          
+        29. S0Bar = [ f1, f1*f2, f2*f3, f1*f2*f4 ]: all 13 choices of a are ok          
+        30. S0Bar = [ f3, f4, f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        31. S0Bar = [ f3, f1*f2, f1*f3, f3*f4 ]: all 13 choices of a are ok          
+        32. S0Bar = [ f3, f1*f2, f1*f3, f1*f2*f4 ]: all 13 choices of a are ok          
+        33. S0Bar = [ f3, f1*f2, f1*f3, f2*f3*f4 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(32, 49) = (C2 x D8) : C2 has 19 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 11 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3, f3*f4 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3, f1*f3*f4 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 13 choices of a are ok          
+        6. S0Bar = [ f1, f2, f1*f3, f2*f4 ]: all 13 choices of a are ok          
+        7. S0Bar = [ f1, f2, f1*f3, f1*f3*f4 ]: all 13 choices of a are ok          
+        8. S0Bar = [ f1, f2, f1*f3, f1*f2*f3*f4 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f2, f1*f4, f2*f3 ]: all 13 choices of a are ok          
+        10. S0Bar = [ f1, f2, f1*f4, f3*f4 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1, f2, f1*f4, f1*f3*f4 ]: all 13 choices of a are ok          
+        12. S0Bar = [ f1, f2, f1*f4, f1*f2*f3*f4 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f1, f3, f1*f2, f1*f4 ]: all 13 choices of a are ok          
+        14. S0Bar = [ f1, f3, f1*f2, f1*f3*f4 ]: all 13 choices of a are ok          
+        15. S0Bar = [ f1, f3, f1*f4, f2*f3*f4 ]: all 13 choices of a are ok          
+        16. S0Bar = [ f1, f3, f1*f4, f1*f2*f3*f4 ]: all 11 choices of a are ok          
+        17. S0Bar = [ f1, f1*f2, f1*f4, f2*f3 ]: all 13 choices of a are ok          
+        18. S0Bar = [ f1, f1*f2, f1*f4, f2*f3*f4 ]: all 13 choices of a are ok          
+        19. S0Bar = [ f1*f2, f1*f4, f2*f3, f1*f3*f4 ]: all 13 choices of a are ok          
+
+    GBar = SmallGroup(32, 50) = (C2 x Q8) : C2 has 14 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: all 9 choices of a are ok          
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3, f2*f4 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2, f3, f1*f2*f4 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f2, f4, f1*f3 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1, f2, f4, f2*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f1, f2, f4, f1*f2*f3 ]: all 9 choices of a are ok          
+        8. S0Bar = [ f1, f2, f1*f3, f2*f4 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f2, f1*f4, f2*f3 ]: all 11 choices of a are ok          
+        10. S0Bar = [ f1, f3, f4, f2*f4 ]: all 9 choices of a are ok          
+        11. S0Bar = [ f1, f4, f1*f2, f1*f2*f3 ]: all 9 choices of a are ok          
+        12. S0Bar = [ f2, f3, f1*f3, f1*f4 ]: all 11 choices of a are ok          
+        13. S0Bar = [ f2, f3, f1*f3, f1*f2*f4 ]: all 11 choices of a are ok          
+        14. S0Bar = [ f2, f3, f1*f2*f4, f2*f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(32, 51) = C2 x C2 x C2 x C2 x C2 has 1 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4, f5 ]: all 15 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 33. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 34. There are 2 groups of order 34.
+
+    GBar = SmallGroup(34, 1) = D34 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 8 choices of a are ok          
+
+    GBar = SmallGroup(34, 2) = C34 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 8 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 35. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 36. There are 14 groups of order 36.
+
+    GBar = SmallGroup(36, 1) = C9 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 9 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(36, 2) = C36 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f2, f1*f4 ]: not bipartite
+        4. S0Bar = [ f1*f2 ]: trying 1 of 9 (a = f2)
+            GCD of voltages is 10 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C9 x (C5 : C4)
+                            1. S = [ f1*f2, f2*f5 ]: LKH found a hamiltonian cycle.
+        4. S0Bar = [ f1*f2 ]: trying 8 of 9 (a = f2^2*f3)
+            GCD of voltages is 34 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 17 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 17: we call LKH
+                        There are 1 lifts of SBar to G = C9 x (C17 : C4)
+                            1. S = [ f1*f2, f2^2*f3*f5 ]: LKH found a hamiltonian cycle.
+        4. S0Bar = [ f1*f2 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1*f4, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(36, 3) = (C2 x C2) : C9 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f1^2*f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(36, 4) = D36 has 8 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 13 choices of a are ok          )
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1, f3, f1*f2*f4 ]: not bipartite
+        6. S0Bar = [ f1, f1*f3, f2*f4 ]: all 13 choices of a are ok          )
+        7. S0Bar = [ f1, f2*f3 ]: all 13 choices of a are ok          )
+        8. S0Bar = [ f1, f1*f2*f3 ]: trying 4 of 9 (a = f2*f3)
+            GCD of voltages is 34 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 17 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 17: we call LKH
+                        There are 1 lifts of SBar to G = C34 x D18
+                            1. S = [ f1, f1*f2*f3, f2*f3*f5 ]: LKH found a hamiltonian cycle.
+        8. S0Bar = [ f1, f1*f2*f3 ]: trying 5 of 9 (a = f2*f4)
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C10 x D18
+                            1. S = [ f1, f1*f2*f3, f2*f4*f5 ]: LKH found a hamiltonian cycle.
+        8. S0Bar = [ f1, f1*f2*f3 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(36, 5) = C18 x C2 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f3, f1*f4, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1*f3, f2*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1*f3, f2*f3^2*f4 ]: all 9 choices of a are ok          
+        7. S0Bar = [ f1*f3, f2*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(36, 6) = C3 x (C3 : C4) has 15 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f2*f3 ]: not bipartite
+        5. S0Bar = [ f1, f1*f4, f2*f3 ]: not bipartite
+        6. S0Bar = [ f1, f2*f3, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: not bipartite
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 9 choices of a are ok          
+        9. S0Bar = [ f1, f2*f3*f4 ]: not bipartite
+        10. S0Bar = [ f4, f1*f2 ]: not bipartite
+        11. S0Bar = [ f1*f2, f2*f4 ]: not bipartite
+        12. S0Bar = [ f1*f2, f3*f4 ]: not bipartite
+        13. S0Bar = [ f1*f2, f1*f2*f4 ]: all 9 choices of a are ok          
+        14. S0Bar = [ f1*f2, f1*f2^2*f4 ]: all 9 choices of a are ok          
+        15. S0Bar = [ f1*f2, f2*f3*f4 ]: not bipartite
+
+    GBar = SmallGroup(36, 7) = (C3 x C3) : C4 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f3, f1*f4 ]: not bipartite
+        3. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        4. S0Bar = [ f1, f1*f3, f1*f4 ]: all 9 choices of a are ok          
+        5. S0Bar = [ f1, f1*f3, f2*f4 ]: not bipartite
+        6. S0Bar = [ f1, f2*f3, f2*f4 ]: not bipartite
+
+    GBar = SmallGroup(36, 8) = C12 x C3 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2*f4, f3*f4 ]: not bipartite
+        4. S0Bar = [ f2, f1*f3 ]: not bipartite
+        5. S0Bar = [ f1*f2, f1*f3 ]: all 9 choices of a are ok          
+        6. S0Bar = [ f1*f2, f3*f4 ]: not bipartite
+
+    GBar = SmallGroup(36, 9) = (C3 x C3) : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 13 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(36, 10) = S3 x S3 has 22 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2, f1*f4, f2*f3 ]: all 13 choices of a are ok          )
+        4. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 13 choices of a are ok          )
+        6. S0Bar = [ f1, f2, f1*f2*f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f3, f4, f1*f2 ]: not bipartite
+        8. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        9. S0Bar = [ f1, f3, f1*f2*f4 ]: not bipartite
+        10. S0Bar = [ f1, f4, f1*f2, f1*f2*f3 ]: not bipartite
+        11. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        12. S0Bar = [ f1, f1*f2, f1*f2*f3*f4 ]: all 10 choices of a are ok          
+        13. S0Bar = [ f1, f2*f4, f3*f4 ]: not bipartite
+        14. S0Bar = [ f1, f2*f4, f2*f3*f4 ]: all 13 choices of a are ok          )
+        15. S0Bar = [ f1, f3*f4, f1*f2*f4 ]: not bipartite
+        16. S0Bar = [ f1, f1*f2*f4, f1*f3*f4 ]: all 10 choices of a are ok          
+        17. S0Bar = [ f1, f1*f2*f4, f1*f2*f3*f4 ]: all 10 choices of a are ok          
+        18. S0Bar = [ f1, f1*f2*f4, f1*f2*f3*f4^2 ]: all 10 choices of a are ok          
+        19. S0Bar = [ f3, f1*f2, f2*f4 ]: not bipartite
+        20. S0Bar = [ f1*f2, f1*f3, f3*f4 ]: not bipartite
+        21. S0Bar = [ f1*f2, f1*f3*f4 ]: all 10 choices of a are ok          
+        22. S0Bar = [ f1*f3, f2*f4 ]: all 13 choices of a are ok          )
+
+    GBar = SmallGroup(36, 11) = C3 x A4 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(36, 12) = C6 x S3 has 32 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f3, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        7. S0Bar = [ f1, f3, f1*f2*f4 ]: not bipartite
+        8. S0Bar = [ f1, f4, f2*f3 ]: not bipartite
+        9. S0Bar = [ f1, f4, f1*f2*f3 ]: not bipartite
+        10. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        11. S0Bar = [ f1, f1*f4, f2*f3 ]: all 10 choices of a are ok          
+        12. S0Bar = [ f1, f2*f3, f2*f4 ]: all 10 choices of a are ok          
+        13. S0Bar = [ f1, f2*f3, f3*f4 ]: not bipartite
+        14. S0Bar = [ f1, f2*f3, f1*f2*f4 ]: not bipartite
+        15. S0Bar = [ f1, f2*f3, f1*f3*f4 ]: all 10 choices of a are ok          
+        16. S0Bar = [ f1, f2*f4, f3*f4 ]: not bipartite
+        17. S0Bar = [ f1, f3*f4, f1*f2*f3 ]: not bipartite
+        18. S0Bar = [ f1, f3*f4, f1*f2*f4 ]: not bipartite
+        19. S0Bar = [ f1, f1*f2*f3, f1*f2*f4 ]: all 9 choices of a are ok          
+        20. S0Bar = [ f1, f2*f3*f4 ]: all 10 choices of a are ok          
+        21. S0Bar = [ f1, f1*f2*f3*f4 ]: all 9 choices of a are ok          
+        22. S0Bar = [ f2, f4, f1*f3 ]: not bipartite
+        23. S0Bar = [ f2, f1*f3, f3*f4 ]: not bipartite
+        24. S0Bar = [ f2, f1*f3, f1*f3*f4 ]: all 10 choices of a are ok          
+        25. S0Bar = [ f4, f1*f3, f2*f3 ]: not bipartite
+        26. S0Bar = [ f4, f1*f3, f1*f2*f3 ]: not bipartite
+        27. S0Bar = [ f1*f3, f2*f3, f3*f4 ]: not bipartite
+        28. S0Bar = [ f1*f3, f2*f3, f1*f3*f4 ]: all 10 choices of a are ok          
+        29. S0Bar = [ f1*f3, f2*f4 ]: all 10 choices of a are ok          
+        30. S0Bar = [ f1*f3, f3*f4, f1*f2*f3 ]: not bipartite
+        31. S0Bar = [ f1*f3, f2*f3*f4 ]: all 10 choices of a are ok          
+        32. S0Bar = [ f1*f3, f1*f2*f3*f4 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(36, 13) = C2 x ((C3 x C3) : C2) has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2, f1*f3, f1*f4 ]: all 13 choices of a are ok          )
+        4. S0Bar = [ f1, f3, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        6. S0Bar = [ f1, f3, f1*f2*f4 ]: not bipartite
+        7. S0Bar = [ f1, f1*f3, f2*f4 ]: all 13 choices of a are ok          )
+        8. S0Bar = [ f1, f1*f3, f1*f2*f4 ]: all 9 choices of a are ok          
+        9. S0Bar = [ f1, f2*f3, f2*f4 ]: all 13 choices of a are ok          )
+        10. S0Bar = [ f1, f2*f3, f1*f2*f4 ]: not bipartite
+
+    GBar = SmallGroup(36, 14) = C6 x C6 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f3, f2*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3, f2*f4 ]: all 9 choices of a are ok          
+        4. S0Bar = [ f3, f1*f4, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1*f3, f2*f4 ]: all 9 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 37. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 38. There are 2 groups of order 38.
+
+    GBar = SmallGroup(38, 1) = D38 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 9 choices of a are ok          
+
+    GBar = SmallGroup(38, 2) = C38 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 9 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 39. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 40. There are 14 groups of order 40.
+
+    GBar = SmallGroup(40, 1) = C5 : C8 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f4 ]: not bipartite
+        2. S0Bar = [ f1, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2*f4 ]: all 10 choices of a are ok          
+        4. S0Bar = [ f1, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1, f3*f4 ]: not bipartite
+
+    GBar = SmallGroup(40, 2) = C40 has 4 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f4 ]: not bipartite
+        4. S0Bar = [ f1*f2 ]: trying 7 of 10 (a = f2^2*f3)
+            GCD of voltages is 38 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 19 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 40
+                p = 19: we call LKH
+                        There are 1 lifts of SBar to G = C5 x (C19 : C8)
+                            1. S = [ f1*f2, f2^2*f3*f5 ]: LKH found a hamiltonian cycle.
+        4. S0Bar = [ f1*f2 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(40, 3) = C5 : C8 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f4 ]: not bipartite
+        2. S0Bar = [ f1, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f1*f2*f4^2 ]: all 10 choices of a are ok          
+        4. S0Bar = [ f1, f2*f4 ]: not bipartite
+        5. S0Bar = [ f1, f3*f4 ]: not bipartite
+
+    GBar = SmallGroup(40, 4) = C5 : Q8 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        6. S0Bar = [ f1, f2*f4 ]: all 10 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2*f4 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(40, 5) = C4 x D10 has 12 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 10 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 10 choices of a are ok          
+        9. S0Bar = [ f2, f4, f1*f2 ]: not bipartite
+        10. S0Bar = [ f2, f1*f2, f3*f4 ]: not bipartite
+        11. S0Bar = [ f2, f1*f2, f1*f2*f4 ]: all 15 choices of a are ok          
+        12. S0Bar = [ f1*f2, f2*f4 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(40, 6) = D40 has 8 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 15 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 15 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 15 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: trying 4 of 10 (a = f2*f4)
+            GCD of voltages is 38 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 19 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 40
+                p = 19: we call LKH
+                        There are 1 lifts of SBar to G = C19 x D40
+                            1. S = [ f1, f1*f2*f4, f2*f4*f5 ]: LKH found a hamiltonian cycle.
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(40, 7) = C2 x (C5 : C4) has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        6. S0Bar = [ f1, f2*f4 ]: all 10 choices of a are ok          
+        7. S0Bar = [ f1, f1*f2*f4 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(40, 8) = (C10 x C2) : C2 has 12 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 10 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f2, f1*f3*f4 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f4 ]: all 10 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2*f4 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f2, f4, f1*f2 ]: not bipartite
+        10. S0Bar = [ f2, f1*f2, f3*f4 ]: not bipartite
+        11. S0Bar = [ f2, f1*f2, f1*f2*f4 ]: all 15 choices of a are ok          
+        12. S0Bar = [ f1*f2, f2*f4 ]: all 15 choices of a are ok          
+
+    GBar = SmallGroup(40, 9) = C20 x C2 has 11 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        5. S0Bar = [ f1, f2*f3 ]: all 10 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f2, f1*f3 ]: all 10 choices of a are ok          
+        8. S0Bar = [ f1*f3, f2*f3 ]: all 10 choices of a are ok          
+        9. S0Bar = [ f1*f3, f2*f3^3 ]: all 10 choices of a are ok          
+        10. S0Bar = [ f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1*f3, f1*f2*f3^3*f4 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(40, 10) = C5 x D8 has 11 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        5. S0Bar = [ f1, f2*f3 ]: all 10 choices of a are ok          
+        6. S0Bar = [ f1, f1*f2*f3 ]: all 11 choices of a are ok          
+        7. S0Bar = [ f1*f2, f1*f3 ]: all 11 choices of a are ok          
+        8. S0Bar = [ f1*f3, f2*f3 ]: all 10 choices of a are ok          
+        9. S0Bar = [ f1*f3, f2*f3^3 ]: all 10 choices of a are ok          
+        10. S0Bar = [ f1*f3, f1*f2*f3 ]: all 11 choices of a are ok          
+        11. S0Bar = [ f1*f3, f1*f2*f3^3*f4 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(40, 11) = C5 x Q8 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: all 10 choices of a are ok          
+        4. S0Bar = [ f1*f3, f2*f3 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f1*f3, f2*f3^3*f4 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(40, 12) = C2 x (C5 : C4) has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f4 ]: all 12 choices of a are ok          
+        3. S0Bar = [ f1, f2, f3*f4 ]: not bipartite
+        4. S0Bar = [ f1, f4, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1, f4, f2*f3 ]: not bipartite
+        6. S0Bar = [ f1, f1*f2, f3*f4 ]: not bipartite
+        7. S0Bar = [ f1, f2*f3, f3*f4 ]: not bipartite
+        8. S0Bar = [ f1, f2*f4 ]: all 12 choices of a are ok          
+        9. S0Bar = [ f1, f1*f2*f4 ]: all 15 choices of a are ok          
+        10. S0Bar = [ f1, f2*f3*f4 ]: all 12 choices of a are ok          
+
+    GBar = SmallGroup(40, 13) = C2 x C2 x D10 has 13 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3, f1*f4 ]: all 15 choices of a are ok          
+        3. S0Bar = [ f1, f2, f4, f1*f3 ]: not bipartite
+        4. S0Bar = [ f1, f2, f3*f4 ]: all 15 choices of a are ok          
+        5. S0Bar = [ f1, f2, f1*f3*f4 ]: all 15 choices of a are ok          
+        6. S0Bar = [ f1, f4, f1*f2, f1*f3 ]: not bipartite
+        7. S0Bar = [ f1, f1*f2, f3*f4 ]: all 15 choices of a are ok          
+        8. S0Bar = [ f1, f1*f2, f1*f3*f4 ]: all 11 choices of a are ok          
+        9. S0Bar = [ f1, f2*f4, f3*f4 ]: all 15 choices of a are ok          
+        10. S0Bar = [ f1, f2*f4, f3*f4^3 ]: all 15 choices of a are ok          
+        11. S0Bar = [ f1, f2*f4, f1*f3*f4 ]: all 15 choices of a are ok          
+        12. S0Bar = [ f1, f2*f4^3, f1*f3*f4 ]: all 15 choices of a are ok          
+        13. S0Bar = [ f1, f1*f2*f4, f1*f3*f4^2 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(40, 14) = C10 x C2 x C2 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3, f4 ]: not bipartite
+        2. S0Bar = [ f1, f2, f3*f4 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2*f4, f3*f4 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1, f2*f4, f3*f4^3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1*f4, f2*f4, f3*f4 ]: all 11 choices of a are ok          
+        6. S0Bar = [ f1*f4, f2*f4, f3*f4^3 ]: all 11 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 41. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 42. There are 6 groups of order 42.
+
+    GBar = SmallGroup(42, 1) = (C7 : C3) : C2 has 6 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1, f1*f2*f3 ]: all 10 choices of a are ok          
+        4. S0Bar = [ f2, f1*f2*f3 ]: not bipartite
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f1*f2*f3 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(42, 2) = C2 x (C7 : C3) has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f2*f3 ]: not bipartite
+        3. S0Bar = [ f2, f1*f3 ]: not bipartite
+        4. S0Bar = [ f2, f1*f2*f3 ]: not bipartite
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f1*f3 ]: all 10 choices of a are ok          
+        7. S0Bar = [ f1*f2, f1*f2*f3 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(42, 3) = C7 x S3 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2*f3 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f2, f2^2*f3^2 ]: not bipartite
+        8. S0Bar = [ f1*f2, f2^4*f3 ]: not bipartite
+        9. S0Bar = [ f1*f2, f1*f2*f3 ]: all 10 choices of a are ok          
+        10. S0Bar = [ f1*f2, f1*f2^3*f3 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(42, 4) = C3 x D14 has 7 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+        4. S0Bar = [ f1, f1*f2*f3 ]: all 10 choices of a are ok          
+        5. S0Bar = [ f3, f1*f2 ]: not bipartite
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f2, f1*f2*f3 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(42, 5) = D42 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: not bipartite
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: not bipartite
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 10 choices of a are ok          
+
+    GBar = SmallGroup(42, 6) = C42 has 10 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f2, f1*f3 ]: not bipartite
+        4. S0Bar = [ f3, f1*f2 ]: not bipartite
+        5. S0Bar = [ f1*f2, f1*f3 ]: all 10 choices of a are ok          
+        6. S0Bar = [ f1*f2, f2*f3 ]: not bipartite
+        7. S0Bar = [ f1*f3, f2*f3 ]: not bipartite
+        8. S0Bar = [ f1*f3, f2^2*f3^2 ]: not bipartite
+        9. S0Bar = [ f1*f3, f2*f3^4 ]: not bipartite
+        10. S0Bar = [ f1*f2*f3 ]: all 10 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 43. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 44. There are 4 groups of order 44.
+
+    GBar = SmallGroup(44, 1) = C11 : C4 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f3 ]: not bipartite
+        2. S0Bar = [ f1, f1*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1, f2*f3 ]: not bipartite
+
+    GBar = SmallGroup(44, 2) = C44 has 3 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: not bipartite
+        3. S0Bar = [ f1*f2 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(44, 3) = D44 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2, f1*f3 ]: all 16 choices of a are ok          
+        3. S0Bar = [ f1, f3, f1*f2 ]: not bipartite
+        4. S0Bar = [ f1, f2*f3 ]: all 16 choices of a are ok          
+        5. S0Bar = [ f1, f1*f2*f3 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(44, 4) = C22 x C2 has 5 irredundant generating sets
+        1. S0Bar = [ f1, f2, f3 ]: not bipartite
+        2. S0Bar = [ f1, f2*f3 ]: all 11 choices of a are ok          
+        3. S0Bar = [ f1*f3, f2*f3 ]: all 11 choices of a are ok          
+        4. S0Bar = [ f1*f3, f2*f3^3 ]: all 11 choices of a are ok          
+        5. S0Bar = [ f1*f3, f2*f3^5 ]: all 11 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 45. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 46. There are 2 groups of order 46.
+
+    GBar = SmallGroup(46, 1) = D46 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1, f1*f2 ]: all 11 choices of a are ok          
+
+    GBar = SmallGroup(46, 2) = C46 has 2 irredundant generating sets
+        1. S0Bar = [ f1, f2 ]: not bipartite
+        2. S0Bar = [ f1*f2 ]: all 11 choices of a are ok          
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+
+
+k = 47. No nontrivial bipartite Cayley graphs have odd order.
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+Success: found hamiltonian cycles in Cay(G,S) whenever SBar is redundant and not bipartite, but S0Bar is bipartite
+gap> 

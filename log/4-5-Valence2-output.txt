@@ -1,0 +1,701 @@
+ ┌───────┐   GAP 4.8.7, 24-Mar-2017, build of 2017-07-19 14:00:28 (CEST)
+ │  GAP  │   https://www.gap-system.org
+ └───────┘   Architecture: x86_64-apple-darwin16.6.0-gcc-default64
+ Libs used:  gmp
+ Loading the library and packages ...
+ Components: trans 1.0, prim 2.1, small* 1.0, id* 1.0
+ Packages:   AClib 1.2, Alnuth 3.0.0, AtlasRep 1.5.1, AutPGrp 1.8, Browse 1.8.6, CRISP 1.4.4, Cryst 4.1.12, CrystCat 1.1.6, 
+             CTblLib 1.2.2, FactInt 1.5.4, FGA 1.3.1, GAPDoc 1.5.1, IO 4.4.6, IRREDSOL 1.3.1, LAGUNA 3.7.0, Polenta 1.3.7, 
+             Polycyclic 2.11, RadiRoot 2.7, ResClasses 4.6.0, Sophus 1.23, SpinSym 1.5, TomLib 1.2.6, Utils 0.46
+ Try '??help' for help. See also '?copyright', '?cite' and '?authors'
+gap> Read("4-5-Valence2.gap");
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Loading  GRAPE 4.7 (GRaph Algorithms using PErmutation groups)
+by Leonard H. Soicher (http://www.maths.qmul.ac.uk/~leonard/).
+Homepage: http://www.maths.qmul.ac.uk/~leonard/grape/
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+k = 4.
+
+    GBar = C4 = SmallGroup(4, 1), S0Bar = [ f1 ]
+        trying 1 of 1: all extensions of S0Bar are ok   
+
+    GBar = C2 x C2 = SmallGroup(4, 2), S0Bar = [ f1, f1*f2 ]
+        trying 1 of 1: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 5.
+
+    GBar = C5 = SmallGroup(5, 1), S0Bar = [ f1 ]
+        trying 1 of 1: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 6.
+
+    GBar = C6 = SmallGroup(6, 2), S0Bar = [ f1 ]
+        trying 2 of 2: all extensions of S0Bar are ok   
+
+    GBar = S3 = SmallGroup(6, 1), S0Bar = [ f1, f1*f2 ]
+        trying 2 of 2: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 7.
+
+    GBar = C7 = SmallGroup(7, 1), S0Bar = [ f1 ]
+        trying 2 of 2: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 8.
+
+    GBar = C8 = SmallGroup(8, 1), S0Bar = [ f1 ]
+        trying 2 of 3 (a = f2)     
+            GCD of voltages is 6 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 8
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C8
+                            1. S = [ f1, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 3 of 3: all extensions of S0Bar are ok   
+
+    GBar = D8 = SmallGroup(8, 3), S0Bar = [ f1, f1*f2 ]
+        trying 1 of 4 (a = f2)     
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 8
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D8
+                            1. S = [ f1, f1*f2, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 3 of 4 (a = f1*f3)     
+            GCD of voltages is 3 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 3 ]
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = (C6 x C2) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f4^2 ]: LKH found a hamiltonian cycle.
+        trying 4 of 4 (a = f1*f2*f3)     
+            GCD of voltages is 3 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 3 ]
+                p = 3: we call LKH
+                        There are 2 lifts of SBar to G = (C6 x C2) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4^2 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f4^2, f1*f2*f3 ]: LKH found a hamiltonian cycle.
+        trying 4 of 4: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 9.
+
+    GBar = C9 = SmallGroup(9, 1), S0Bar = [ f1 ]
+        trying 3 of 3: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 10.
+
+    GBar = C10 = SmallGroup(10, 2), S0Bar = [ f1 ]
+        trying 4 of 4: all extensions of S0Bar are ok   
+
+    GBar = D10 = SmallGroup(10, 1), S0Bar = [ f1, f1*f2 ]
+        trying 5 of 5: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 11.
+
+    GBar = C11 = SmallGroup(11, 1), S0Bar = [ f1 ]
+        trying 4 of 4: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 12.
+
+    GBar = C12 = SmallGroup(12, 2), S0Bar = [ f1 ]
+        trying 2 of 5 (a = f2)     
+            GCD of voltages is 10 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 12
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C3 x (C5 : C4)
+                            1. S = [ f1, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 5 of 5: all extensions of S0Bar are ok   
+
+    GBar = D12 = SmallGroup(12, 4), S0Bar = [ f1, f1*f2 ]
+        trying 2 of 7 (a = f2)     
+            GCD of voltages is 10 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 5 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 12
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C10 x S3
+                            1. S = [ f1, f1*f2, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 4 of 7 (a = f1*f3)     
+            GCD of voltages is 5 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 5 ]
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = S3 x D10
+                            1. S = [ f1, f1*f2, f1*f3*f4^4 ]: LKH found a hamiltonian cycle.
+        trying 7 of 7 (a = f1*f2*f3^2)     
+            GCD of voltages is 5 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 5 ]
+                p = 5: we call LKH
+                        There are 2 lifts of SBar to G = S3 x D10
+                            1. S = [ f1, f1*f2, f1*f2*f3^2*f4^4 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f4^4, f1*f2*f3^2 ]: LKH found a hamiltonian cycle.
+        trying 7 of 7: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 13.
+
+    GBar = C13 = SmallGroup(13, 1), S0Bar = [ f1 ]
+        trying 5 of 5: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 14.
+
+    GBar = C14 = SmallGroup(14, 2), S0Bar = [ f1 ]
+        trying 6 of 6: all extensions of S0Bar are ok   
+
+    GBar = D14 = SmallGroup(14, 1), S0Bar = [ f1, f1*f2 ]
+        trying 8 of 8: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 15.
+
+    GBar = C15 = SmallGroup(15, 1), S0Bar = [ f1 ]
+        trying 6 of 6: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 16.
+
+    GBar = C16 = SmallGroup(16, 1), S0Bar = [ f1 ]
+        trying 3 of 7 (a = f2)     
+            GCD of voltages is 14 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 : C16
+                            1. S = [ f1, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 7 of 7: all extensions of S0Bar are ok   
+
+    GBar = D16 = SmallGroup(16, 7), S0Bar = [ f1, f1*f2 ]
+        trying 3 of 10 (a = f2)     
+            GCD of voltages is 14 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 x D16
+                            1. S = [ f1, f1*f2, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 6 of 10 (a = f1*f3)     
+            GCD of voltages is 7 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 7 ]
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = (C7 x D8) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f5^6 ]: LKH found a hamiltonian cycle.
+        trying 7 of 10 (a = f1*f3*f4)     
+            GCD of voltages is 6 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = (C3 x D8) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f4*f5^2 ]: LKH found a hamiltonian cycle.
+        trying 9 of 10 (a = f1*f2*f3)     
+            GCD of voltages is 6 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 2, 3 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 16
+                p = 3: we call LKH
+                        There are 2 lifts of SBar to G = (C3 x D8) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f5^2 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f5^2, f1*f2*f3 ]: LKH found a hamiltonian cycle.
+        trying 10 of 10 (a = f1*f2*f3*f4)     
+            GCD of voltages is 7 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 7 ]
+                p = 7: we call LKH
+                        There are 2 lifts of SBar to G = (C7 x D8) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4*f5^6 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f5^6, f1*f2*f3*f4 ]: LKH found a hamiltonian cycle.
+        trying 10 of 10: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 17.
+
+    GBar = C17 = SmallGroup(17, 1), S0Bar = [ f1 ]
+        trying 7 of 7: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 18.
+
+    GBar = C18 = SmallGroup(18, 2), S0Bar = [ f1 ]
+        trying 8 of 8: all extensions of S0Bar are ok   
+
+    GBar = D18 = SmallGroup(18, 1), S0Bar = [ f1, f1*f2 ]
+        trying 11 of 11: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 19.
+
+    GBar = C19 = SmallGroup(19, 1), S0Bar = [ f1 ]
+        trying 8 of 8: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 20.
+
+    GBar = C20 = SmallGroup(20, 2), S0Bar = [ f1 ]
+        trying 9 of 9: all extensions of S0Bar are ok   
+
+    GBar = D20 = SmallGroup(20, 4), S0Bar = [ f1, f1*f2 ]
+        trying 13 of 13: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 21.
+
+    GBar = C21 = SmallGroup(21, 2), S0Bar = [ f1 ]
+        trying 9 of 9: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 22.
+
+    GBar = C22 = SmallGroup(22, 2), S0Bar = [ f1 ]
+        trying 10 of 10: all extensions of S0Bar are ok   
+
+    GBar = D22 = SmallGroup(22, 1), S0Bar = [ f1, f1*f2 ]
+        trying 14 of 14: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 23.
+
+    GBar = C23 = SmallGroup(23, 1), S0Bar = [ f1 ]
+        trying 10 of 10: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 24.
+
+    GBar = C24 = SmallGroup(24, 2), S0Bar = [ f1 ]
+        trying 4 of 11 (a = f2)        
+            GCD of voltages is 22 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 11 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 24
+                p = 11: we call LKH
+                        There are 1 lifts of SBar to G = C3 x (C11 : C8)
+                            1. S = [ f1, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 11 of 11: all extensions of S0Bar are ok   
+
+    GBar = D24 = SmallGroup(24, 6), S0Bar = [ f1, f1*f2 ]
+        trying 4 of 16 (a = f2)        
+            GCD of voltages is 22 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 11 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 24
+                p = 11: we call LKH
+                        There are 1 lifts of SBar to G = C11 x D24
+                            1. S = [ f1, f1*f2, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 9 of 16 (a = f1*f3)       
+            GCD of voltages is 11 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 11 ]
+                p = 11: we call LKH
+                        There are 1 lifts of SBar to G = (C22 x S3) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f5^10 ]: LKH found a hamiltonian cycle.
+        trying 16 of 16 (a = f1*f2*f3*f4^2)     
+            GCD of voltages is 11 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 11 ]
+                p = 11: we call LKH
+                        There are 2 lifts of SBar to G = (C22 x S3) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4^2*f5^10 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f5^10, f1*f2*f3*f4^2 ]: LKH found a hamiltonian cycle.
+        trying 16 of 16: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 25.
+
+    GBar = C25 = SmallGroup(25, 1), S0Bar = [ f1 ]
+        trying 11 of 11: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 26.
+
+    GBar = C26 = SmallGroup(26, 2), S0Bar = [ f1 ]
+        trying 12 of 12: all extensions of S0Bar are ok   
+
+    GBar = D26 = SmallGroup(26, 1), S0Bar = [ f1, f1*f2 ]
+        trying 17 of 17: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 27.
+
+    GBar = C27 = SmallGroup(27, 1), S0Bar = [ f1 ]
+        trying 12 of 12: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 28.
+
+    GBar = C28 = SmallGroup(28, 2), S0Bar = [ f1 ]
+        trying 4 of 13 (a = f2)       
+            GCD of voltages is 26 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 13 ]
+                p = 2 is not larger than the largest prime divisor 7 of k = 28
+                p = 13: we call LKH
+                        There are 1 lifts of SBar to G = C7 x (C13 : C4)
+                            1. S = [ f1, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 13 of 13: all extensions of S0Bar are ok   
+
+    GBar = D28 = SmallGroup(28, 3), S0Bar = [ f1, f1*f2 ]
+        trying 4 of 19 (a = f2)       
+            GCD of voltages is 26 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 13 ]
+                p = 2 is not larger than the largest prime divisor 7 of k = 28
+                p = 13: we call LKH
+                        There are 1 lifts of SBar to G = C26 x D14
+                            1. S = [ f1, f1*f2, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 8 of 19 (a = f1*f3)       
+            GCD of voltages is 13 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 13 ]
+                p = 13: we call LKH
+                        There are 1 lifts of SBar to G = D14 x D26
+                            1. S = [ f1, f1*f2, f1*f3*f4^12 ]: LKH found a hamiltonian cycle.
+        trying 19 of 19 (a = f1*f2*f3^6)     
+            GCD of voltages is 13 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 13 ]
+                p = 13: we call LKH
+                        There are 2 lifts of SBar to G = D14 x D26
+                            1. S = [ f1, f1*f2, f1*f2*f3^6*f4^12 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f4^12, f1*f2*f3^6 ]: LKH found a hamiltonian cycle.
+        trying 19 of 19: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 29.
+
+    GBar = C29 = SmallGroup(29, 1), S0Bar = [ f1 ]
+        trying 13 of 13: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 30.
+
+    GBar = C30 = SmallGroup(30, 4), S0Bar = [ f1 ]
+        trying 3 of 14 (a = f2)       
+            GCD of voltages is 28 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 30
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C15 x D14
+                            1. S = [ f1, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 14 of 14: all extensions of S0Bar are ok   
+
+    GBar = D30 = SmallGroup(30, 3), S0Bar = [ f1, f1*f2 ]
+        trying 3 of 20 (a = f2)       
+            GCD of voltages is 28 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 7 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 30
+                p = 7: we call LKH
+                        There are 1 lifts of SBar to G = C7 x D30
+                            1. S = [ f1, f1*f2, f2*f4 ]: LKH found a hamiltonian cycle.
+        trying 20 of 20: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 31.
+
+    GBar = C31 = SmallGroup(31, 1), S0Bar = [ f1 ]
+        trying 14 of 14: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 32.
+
+    GBar = C32 = SmallGroup(32, 1), S0Bar = [ f1 ]
+        trying 5 of 15 (a = f2)        
+            GCD of voltages is 30 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 : C32
+                            1. S = [ f1, f2*f6 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 : C32
+                            1. S = [ f1, f2*f6 ]: LKH found a hamiltonian cycle.
+        trying 15 of 15: all extensions of S0Bar are ok   
+
+    GBar = D32 = SmallGroup(32, 18), S0Bar = [ f1, f1*f2 ]
+        trying 5 of 22 (a = f2)        
+            GCD of voltages is 30 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 3, 5 ]
+                p = 2 is not larger than the largest prime divisor 2 of k = 32
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = C3 x D32
+                            1. S = [ f1, f1*f2, f2*f6 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = C5 x D32
+                            1. S = [ f1, f1*f2, f2*f6 ]: LKH found a hamiltonian cycle.
+        trying 12 of 22 (a = f1*f3)        
+            GCD of voltages is 15 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 3, 5 ]
+                p = 3: we call LKH
+                        There are 1 lifts of SBar to G = (C3 x D16) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f6^2 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 1 lifts of SBar to G = (C5 x D16) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f6^4 ]: LKH found a hamiltonian cycle.
+        trying 16 of 22 (a = f1*f2*f5)        
+            GCD of voltages is 3 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 3 ]
+                p = 3: we call LKH
+                        There are 2 lifts of SBar to G = (C3 x D16) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f5*f6^2 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f6^2, f1*f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 22 of 22 (a = f1*f2*f3*f4*f5)     
+            GCD of voltages is 15 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 3, 5 ]
+                p = 3: we call LKH
+                        There are 2 lifts of SBar to G = (C3 x D16) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4*f5*f6^2 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f6^2, f1*f2*f3*f4*f5 ]: LKH found a hamiltonian cycle.
+                p = 5: we call LKH
+                        There are 2 lifts of SBar to G = (C5 x D16) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4*f5*f6^4 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f6^4, f1*f2*f3*f4*f5 ]: LKH found a hamiltonian cycle.
+        trying 22 of 22: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 33.
+
+    GBar = C33 = SmallGroup(33, 1), S0Bar = [ f1 ]
+        trying 15 of 15: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 34.
+
+    GBar = C34 = SmallGroup(34, 2), S0Bar = [ f1 ]
+        trying 16 of 16: all extensions of S0Bar are ok   
+
+    GBar = D34 = SmallGroup(34, 1), S0Bar = [ f1, f1*f2 ]
+        trying 23 of 23: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 35.
+
+    GBar = C35 = SmallGroup(35, 1), S0Bar = [ f1 ]
+        trying 16 of 16: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 36.
+
+    GBar = C36 = SmallGroup(36, 2), S0Bar = [ f1 ]
+        trying 5 of 17 (a = f2)        
+            GCD of voltages is 34 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 17 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 17: we call LKH
+                        There are 1 lifts of SBar to G = C9 x (C17 : C4)
+                            1. S = [ f1, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 17 of 17: all extensions of S0Bar are ok   
+
+    GBar = D36 = SmallGroup(36, 4), S0Bar = [ f1, f1*f2 ]
+        trying 5 of 25 (a = f2)        
+            GCD of voltages is 34 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 17 ]
+                p = 2 is not larger than the largest prime divisor 3 of k = 36
+                p = 17: we call LKH
+                        There are 1 lifts of SBar to G = C34 x D18
+                            1. S = [ f1, f1*f2, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 12 of 25 (a = f1*f3)       
+            GCD of voltages is 17 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 17 ]
+                p = 17: we call LKH
+                        There are 1 lifts of SBar to G = D18 x D34
+                            1. S = [ f1, f1*f2, f1*f3*f5^16 ]: LKH found a hamiltonian cycle.
+        trying 25 of 25 (a = f1*f2*f3^2*f4^2)     
+            GCD of voltages is 17 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 17 ]
+                p = 17: we call LKH
+                        There are 2 lifts of SBar to G = D18 x D34
+                            1. S = [ f1, f1*f2, f1*f2*f3^2*f4^2*f5^16 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f5^16, f1*f2*f3^2*f4^2 ]: LKH found a hamiltonian cycle.
+        trying 25 of 25: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 37.
+
+    GBar = C37 = SmallGroup(37, 1), S0Bar = [ f1 ]
+        trying 17 of 17: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 38.
+
+    GBar = C38 = SmallGroup(38, 2), S0Bar = [ f1 ]
+        trying 18 of 18: all extensions of S0Bar are ok   
+
+    GBar = D38 = SmallGroup(38, 1), S0Bar = [ f1, f1*f2 ]
+        trying 26 of 26: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 39.
+
+    GBar = C39 = SmallGroup(39, 2), S0Bar = [ f1 ]
+        trying 18 of 18: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 40.
+
+    GBar = C40 = SmallGroup(40, 2), S0Bar = [ f1 ]
+        trying 6 of 19 (a = f2)          
+            GCD of voltages is 38 for twist(S0Bar) = [ -1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 19 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 40
+                p = 19: we call LKH
+                        There are 1 lifts of SBar to G = C5 x (C19 : C8)
+                            1. S = [ f1, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 19 of 19: all extensions of S0Bar are ok   
+
+    GBar = D40 = SmallGroup(40, 6), S0Bar = [ f1, f1*f2 ]
+        trying 6 of 28 (a = f2)          
+            GCD of voltages is 38 for twist(S0Bar) = [ 1, 1 ] and twist(a) = 1.
+            Prime divisors are [ 2, 19 ]
+                p = 2 is not larger than the largest prime divisor 5 of k = 40
+                p = 19: we call LKH
+                        There are 1 lifts of SBar to G = C19 x D40
+                            1. S = [ f1, f1*f2, f2*f5 ]: LKH found a hamiltonian cycle.
+        trying 15 of 28 (a = f1*f3)        
+            GCD of voltages is 19 for twist(S0Bar) = [ -1, 1 ] and twist(a) = -1.
+            Prime divisors are [ 19 ]
+                p = 19: we call LKH
+                        There are 1 lifts of SBar to G = (C38 x D10) : C2
+                            1. S = [ f1, f1*f2, f1*f3*f5^18 ]: LKH found a hamiltonian cycle.
+        trying 28 of 28 (a = f1*f2*f3*f4^4)     
+            GCD of voltages is 19 for twist(S0Bar) = [ 1, -1 ] and twist(a) = -1.
+            Prime divisors are [ 19 ]
+                p = 19: we call LKH
+                        There are 2 lifts of SBar to G = (C38 x D10) : C2
+                            1. S = [ f1, f1*f2, f1*f2*f3*f4^4*f5^18 ]: LKH found a hamiltonian cycle.
+                            2. S = [ f1, f1*f2*f5^18, f1*f2*f3*f4^4 ]: LKH found a hamiltonian cycle.
+        trying 28 of 28: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 41.
+
+    GBar = C41 = SmallGroup(41, 1), S0Bar = [ f1 ]
+        trying 19 of 19: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 42.
+
+    GBar = C42 = SmallGroup(42, 6), S0Bar = [ f1 ]
+        trying 20 of 20: all extensions of S0Bar are ok   
+
+    GBar = D42 = SmallGroup(42, 5), S0Bar = [ f1, f1*f2 ]
+        trying 29 of 29: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 43.
+
+    GBar = C43 = SmallGroup(43, 1), S0Bar = [ f1 ]
+        trying 20 of 20: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 44.
+
+    GBar = C44 = SmallGroup(44, 2), S0Bar = [ f1 ]
+        trying 21 of 21: all extensions of S0Bar are ok   
+
+    GBar = D44 = SmallGroup(44, 3), S0Bar = [ f1, f1*f2 ]
+        trying 31 of 31: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 45.
+
+    GBar = C45 = SmallGroup(45, 1), S0Bar = [ f1 ]
+        trying 21 of 21: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 46.
+
+    GBar = C46 = SmallGroup(46, 2), S0Bar = [ f1 ]
+        trying 22 of 22: all extensions of S0Bar are ok   
+
+    GBar = D46 = SmallGroup(46, 1), S0Bar = [ f1, f1*f2 ]
+        trying 32 of 32: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+
+k = 47.
+
+    GBar = C47 = SmallGroup(47, 1), S0Bar = [ f1 ]
+        trying 22 of 22: all extensions of S0Bar are ok   
+
+-------------------------------------------------------------------- 
+-------------------------------------------------------------------- 
+Success: found hamiltonian cycles in Cay(G,S) whenever SBar is a redundant extension of generating set of valence 2
+gap> 
